@@ -50,7 +50,7 @@ export default function Hero() {
             </div>
 
             <div className="absolute inset-0 -z-10 overflow-hidden">
-                <img src="/heroBG.jpeg" alt="" className="object-cover w-full h-full opacity-30 object-[0%_60%]" />
+                <img src="/heroBG.jpeg" alt="" className="object-cover w-full h-full opacity-30 object-[50%_60%]" />
             </div>
 
             <div className="px-4 lg:px-6 relative">
@@ -82,14 +82,14 @@ export default function Hero() {
                         <div className="flex flex-col sm:flex-row gap-4">
                             <a href="/anggota">
                                 <button
-                                    className="h-11 rounded-xl px-8 text-white font-semibold bg-gradient-to-r from-primary to-primary-gradient hover:from-primary/90 hover:to-primary-gradient/90 transition-all duration-300"
+                                    className="h-11 w-full rounded-xl px-8 text-white font-semibold bg-gradient-to-r from-primary to-primary-gradient hover:from-primary/90 hover:to-primary-gradient/90 transition-all duration-300"
                                 >
                                     Kenali Anggota Kami
                                 </button>
                             </a>
                             <a href="#tentang">
                                 <button
-                                    className="group h-11 border focus-visible:ring-0 rounded-xl px-8 relative overflow-hidden border-primary"
+                                    className="group w-full h-11 border focus-visible:ring-0 rounded-xl px-8 relative overflow-hidden border-primary"
                                 >
                                     <span className="absolute inset-0 bg-gradient-to-r from-primary/10 to-primary-gradient/10 translate-y-full group-hover:translate-y-0 transition-transform duration-300"></span>
                                     <span className="relative">Tentang Kami</span>
@@ -97,7 +97,7 @@ export default function Hero() {
                             </a>
                         </div>
 
-                        <div className="flex items-center gap-8 mb-8 lg:mb-0">
+                        <div className="flex items-center gap-4 sm:gap-8 mb-8 lg:mb-0 text-start">
                             <div className="flex flex-col items-center">
                                 <div ref={ref} className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary-gradient">
                                     {isInView && <Counter to={11} />}

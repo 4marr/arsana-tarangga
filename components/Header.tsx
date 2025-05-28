@@ -145,7 +145,7 @@ export default function Header() {
                                 Gallery
                             </Link>
                             <Link
-                                href="#anggota"
+                                href="/anggota"
                                 className="py-3 text-sm font-semibold"
                                 onClick={() => setMobileMenuOpen(false)}
                             >
