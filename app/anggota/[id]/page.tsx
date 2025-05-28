@@ -9,7 +9,7 @@ import { notFound } from "next/navigation"
 import troopsData from "@/data/troops.json"
 
 
-export default function TroopPage({ params }: { params: { id: string } }) {
+export default async function TroopPage({ params }: { params: { id: string } }) {
     const { troops } = troopsData;
     const troop = troops.find((t) => t.id === params.id);
 
