@@ -8,18 +8,13 @@ import Image from "next/image"
 import { notFound } from "next/navigation"
 import troopsData from "@/data/troops.json"
 
-interface TroopPageProps {
-    params: {
-        id: string
-    }
-}
 
-export default function anggotaPage({ params }: TroopPageProps) {
-    const { troops } = troopsData
-    const troop = troops.find((t) => t.id === params.id)
+export default function TroopPage({ params }: { params: { id: string } }) {
+    const { troops } = troopsData;
+    const troop = troops.find((t) => t.id === params.id);
 
     if (!troop) {
-        notFound()
+        notFound();
     }
 
     return (
