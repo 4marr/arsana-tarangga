@@ -8,10 +8,10 @@ import Image from "next/image"
 import { notFound } from "next/navigation"
 import troopsData from "@/data/troops.json"
 
-
-export default async function TroopPage({ params }: { params: { id: string } }) {
+export default async function TroopPage({ params }: { params: Promise<{ id: string }> }) {
+    const { id } = await params;
     const { troops } = troopsData;
-    const troop = troops.find((t) => t.id === params.id);
+    const troop = troops.find((t) => t.id === id);
 
     if (!troop) {
         notFound();
