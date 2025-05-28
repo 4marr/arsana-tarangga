@@ -1,0 +1,160 @@
+"use client";
+
+import { useState, useEffect } from "react";
+import { SimpleThemeToggle } from "@/components/SimpleThemeToggle";
+import { Menu, X, Megaphone } from "lucide-react";
+import Image from "next/image";
+import Link from "next/link";
+import { cn } from "@/lib/utils";
+
+export default function Header() {
+    const [isScrolled, setIsScrolled] = useState(false);
+    const [show, setShow] = useState(true);
+    const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            setIsScrolled(window.scrollY > 10);
+        };
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
+
+    const showing = () => {
+        setShow(false)
+    }
+
+    return (
+        <div className="fixed top-0 z-50 w-full">
+            <header
+                className={cn(
+                    "sticky top-0 z-50 w-full transition-all duration-300 lg:px-24",
+                    isScrolled
+                        ? "bg-background/80 backdrop-blur-md border-b-gray-200 shadow-sm"
+                        : "bg-transparent"
+                )}
+            >
+                <div className="w-full flex h-16 items-center justify-between px-4">
+                    <div className="flex items-center gap-2">
+                        <div className="relative overflow-hidden rounded">
+                            <Image
+                                src="/arsana.png"
+                                alt="BIFOR Logo"
+                                width={44}
+                                height={44}
+                                className="object-cover"
+                            />
+                        </div>
+                        <p className="font-bold">Arsana Tarangga</p>
+                    </div>
+
+                    {/* Desktop Navigation */}
+                    <nav className="hidden lg:flex items-center gap-8">
+                        <Link
+                            href="\#beranda"
+                            className="text-sm font-semibold relative group"
+                        >
+                            <span className="transition-colors hover:text-primary">
+                                Beranda
+                            </span>
+                            <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full rounded-full"></span>
+                        </Link>
+                        <Link
+                            href="\#sejarah"
+                            className="text-sm font-semibold relative group"
+                        >
+                            <span className="transition-colors hover:text-primary">
+                                Sejarah
+                            </span>
+                            <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full rounded-full"></span>
+                        </Link>
+                        <Link
+                            href="\#tentang"
+                            className="text-sm font-semibold relative group"
+                        >
+                            <span className="transition-colors hover:text-primary">
+                                Tentang
+                            </span>
+                            <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full rounded-full"></span>
+                        </Link>
+                        <Link
+                            href="\#gallery"
+                            className="text-sm font-semibold relative group"
+                        >
+                            <span className="transition-colors hover:text-primary">
+                                Gallery
+                            </span>
+                            <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full rounded-full"></span>
+                        </Link>
+                        <Link
+                            href="/anggota"
+                            className="text-sm font-semibold relative group"
+                        >
+                            <span className="transition-colors hover:text-primary">
+                                Anggota
+                            </span>
+                            <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full rounded-full"></span>
+                        </Link>
+                    </nav>
+
+                    <div className="flex items-center gap-4">
+                        {/* Mobile Menu Button */}
+                        <button
+                            className="hover:bg-accent hover:text-accent-foreground h-10 w-10 lg:hidden"
+                            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+                        >
+                            {mobileMenuOpen ? (
+                                <X className="h-6 w-6" />
+                            ) : (
+                                <Menu className="h-6 w-6" />
+                            )}
+                        </button>
+                    </div>
+                </div>
+
+                {/* Mobile Menu */}
+                {mobileMenuOpen && (
+                    <div className="lg:hidden border-t border-t-gray-200 dark:border-t-gray-600/50 bg-background/95 backdrop-blur-md">
+                        <nav className="flex flex-col py-4 text-center">
+                            <Link
+                                href="\#beranda"
+                                className="py-3 text-sm font-semibold border-b border-gray-200/50 dark:border-gray-600/50"
+                                onClick={() => setMobileMenuOpen(false)}
+                            >
+                                Beranda
+                            </Link>
+                            <Link
+                                href="\#sejarah"
+                                className="py-3 text-sm font-semibold border-b border-gray-200/50 dark:border-gray-600/50"
+                                onClick={() => setMobileMenuOpen(false)}
+                            >
+                                Sejarah
+                            </Link>
+                            <Link
+                                href="\#tentang"
+                                className="py-3 text-sm font-semibold border-b border-gray-200/50 dark:border-gray-600/50"
+                                onClick={() => setMobileMenuOpen(false)}
+                            >
+                                Tentang
+                            </Link>
+                            <Link
+                                href="\#gallery"
+                                className="py-3 text-sm font-semibold border-b border-gray-200/50 dark:border-gray-600/50"
+                                onClick={() => setMobileMenuOpen(false)}
+                            >
+                                Gallery
+                            </Link>
+                            <Link
+                                href="#anggota"
+                                className="py-3 text-sm font-semibold"
+                                onClick={() => setMobileMenuOpen(false)}
+                            >
+                                Anggota
+                            </Link>
+                        </nav>
+                    </div>
+                )}
+            </header>
+        </div>
+    );
+}

@@ -1,0 +1,134 @@
+{
+    "troops": [
+        {
+            "id": "1",
+            "name": "Husni Syaifal Ulum",
+            "position": "Ketua Umum",
+            "photo": "/husni.jpeg",
+            "school": "SMK Bina Informatika",
+            "major": "Rekayasa Perangkat Lunak",
+            "ttl": "21-12-2007",
+            "motto": "Tetap jadi diri sendiri, karena hidupmu bukan buat memenuhi ekspektasi mereka yang nggak pernah puas.",
+            "contact": {
+                "instagram": "@husnaii_ii"
+            }
+        },
+        {
+            "id": "2",
+            "name": "Alif Aditya",
+            "position": "Paluh",
+            "photo": "/alif.jpeg",
+            "school": "SMK Bina Informatika",
+            "major": "Rekayasa Perangkat Lunak",
+            "ttl": "30-07-2008",
+            "motto": "Tantang hidupmu agar tidak tenang dizona nyaman.",
+            "contact": {
+                "instagram": "@leozboy_"
+            }
+        },
+        {
+            "id": "3",
+            "name": "Anissa Novita",
+            "position": "Sekertaris",
+            "photo": "/anissa.jpeg",
+            "school": "SMK Bina Informatika",
+            "major": "Otomatisasi Tata Kelola Perkantoran",
+            "ttl": "12-09-2008",
+            "motto": "Chase your dreams, keep shining, and become the best version of you.",
+            "contact": {
+                "instagram": "@anissanvtaaa12"
+            }
+        },
+        {
+            "id": "4",
+            "name": "Septiani Wulandari",
+            "position": "Bendahara",
+            "photo": "/septiani.jpeg",
+            "school": "SMK Bina Informatika",
+            "major": "Otomatisasi Tata Kelola Perkantoran",
+            "ttl": "03-09-2008",
+            "motto": "Berpikir besar terlebih dahulu, kemudian mulai bertindak.",
+            "contact": {
+                "instagram": "@sseimbulan"
+            }
+        },
+        {
+            "id": "5",
+            "name": "Jatnicho Fadillah",
+            "position": "Anggota",
+            "photo": "/jatnicho.jpeg",
+            "school": "SMK Bina Informatika",
+            "major": "Otomatisasi Tata Kelola Perkantoran",
+            "ttl": " 02-07-2007",
+            "motto": "Barang siapa yang bersungguh-sungguh maka ia akan mendapatkan nya.",
+            "contact": {
+                "instagram": "@-"
+            }
+        },
+        {
+            "id": "6",
+            "name": "Nadia Fitra Putri Sastrayuga",
+            "position": "Anggota",
+            "photo": "/nadia.jpeg",
+            "school": "SMK Bina Informatika",
+            "major": "Multimedia",
+            "ttl": "22-09-2008",
+            "motto": "Keep it lowkey, let success speak.",
+            "contact": {
+                "instagram": "@sastrayga_"
+            }
+        },
+        {
+            "id": "7",
+            "name": "Muhammad Devi",
+            "position": "Anggota",
+            "photo": "/devi.jpeg",
+            "school": "SMK Bina Informatika",
+            "major": "Multimedia",
+            "ttl": "17-11-2006",
+            "motto": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+            "contact": {
+                "instagram": "@muhamaddevihidayat"
+            }
+        },
+        {
+            "id": "8",
+            "name": "Cinta Ivena",
+            "position": "Anggota",
+            "photo": "/cinta.jpeg",
+            "school": "SMK Bina Informatika",
+            "major": "Otomatisasi Tata Kelola Perkantoran",
+            "ttl": "20-11-2007",
+            "motto": "Walk by faith not by sight.",
+            "contact": {
+                "instagram": "@leebyow._"
+            }
+        },
+        {
+            "id": "9",
+            "name": "Raihan Muhammad Ashfak",
+            "position": "Anggota",
+            "photo": "/raihan.jpeg",
+            "school": "SMK Bina Informatika",
+            "major": "Teknik komputer dan Jaringan",
+            "ttl": "17-10-2007",
+            "motto": "Gada kata-kata butuh nya bukti nyata.",
+            "contact": {
+                "instagram": "@yourhanz.17"
+            }
+        },
+        {
+            "id": "10",
+            "name": "Keyla",
+            "position": "Anggota",
+            "photo": "/keyla.jpeg",
+            "school": "SMK Bina Informatika",
+            "major": "Multimedia",
+            "ttl": "06-06-2009",
+            "motto": "The attitude and energy you radiate will attract people who are compatible with you.",
+            "contact": {
+                "instagram": "@4keil_"
+            }
+        }
+    ]
+}
