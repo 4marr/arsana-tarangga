@@ -36,7 +36,7 @@ export default function Footer() {
                             <Link href="/" className="block text-gray-400 hover:text-primary transition-colors">
                                 Beranda
                             </Link>
-                            <Link href="/troops" className="block text-gray-400 hover:text-primary transition-colors">
+                            <Link href="/anggota" className="block text-gray-400 hover:text-primary transition-colors">
                                 Anggota
                             </Link>
                             <Link href="/#about" className="block text-gray-400 hover:text-primary transition-colors">

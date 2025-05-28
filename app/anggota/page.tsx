@@ -7,7 +7,7 @@ import Image from "next/image"
 import troopsData from "@/data/troops.json"
 import Header from "@/components/Header"
 
-export default function TroopsPage() {
+export default function anggotaPage() {
     const { troops } = troopsData
 
     return (

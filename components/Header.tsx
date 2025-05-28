@@ -51,7 +51,7 @@ export default function Header() {
                     {/* Desktop Navigation */}
                     <nav className="hidden lg:flex items-center gap-8">
                         <Link
-                            href="\#beranda"
+                            href="/#beranda"
                             className="text-sm font-semibold relative group"
                         >
                             <span className="transition-colors hover:text-primary">
@@ -60,7 +60,7 @@ export default function Header() {
                             <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full rounded-full"></span>
                         </Link>
                         <Link
-                            href="\#sejarah"
+                            href="/#sejarah"
                             className="text-sm font-semibold relative group"
                         >
                             <span className="transition-colors hover:text-primary">
@@ -69,7 +69,7 @@ export default function Header() {
                             <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full rounded-full"></span>
                         </Link>
                         <Link
-                            href="\#tentang"
+                            href="/#tentang"
                             className="text-sm font-semibold relative group"
                         >
                             <span className="transition-colors hover:text-primary">
@@ -78,7 +78,7 @@ export default function Header() {
                             <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full rounded-full"></span>
                         </Link>
                         <Link
-                            href="\#gallery"
+                            href="/#gallery"
                             className="text-sm font-semibold relative group"
                         >
                             <span className="transition-colors hover:text-primary">
@@ -117,28 +117,28 @@ export default function Header() {
                     <div className="lg:hidden border-t border-t-gray-200 dark:border-t-gray-600/50 bg-background/95 backdrop-blur-md">
                         <nav className="flex flex-col py-4 text-center">
                             <Link
-                                href="\#beranda"
+                                href="/#beranda"
                                 className="py-3 text-sm font-semibold border-b border-gray-200/50 dark:border-gray-600/50"
                                 onClick={() => setMobileMenuOpen(false)}
                             >
                                 Beranda
                             </Link>
                             <Link
-                                href="\#sejarah"
+                                href="/#sejarah"
                                 className="py-3 text-sm font-semibold border-b border-gray-200/50 dark:border-gray-600/50"
                                 onClick={() => setMobileMenuOpen(false)}
                             >
                                 Sejarah
                             </Link>
                             <Link
-                                href="\#tentang"
+                                href="/#tentang"
                                 className="py-3 text-sm font-semibold border-b border-gray-200/50 dark:border-gray-600/50"
                                 onClick={() => setMobileMenuOpen(false)}
                             >
                                 Tentang
                             </Link>
                             <Link
-                                href="\#gallery"
+                                href="/#gallery"
                                 className="py-3 text-sm font-semibold border-b border-gray-200/50 dark:border-gray-600/50"
                                 onClick={() => setMobileMenuOpen(false)}
                             >

@@ -22,7 +22,7 @@ export default function Hero() {
     }, []);
 
     return (
-        <section className="relative w-full lg:px-16 pt-40 pb-36 lg:py-40 overflow-hidden min-h-screen">
+        <section id="beranda" className="relative w-full lg:px-16 pt-40 pb-36 lg:py-40 overflow-hidden min-h-screen">
             {/* Background Elements */}
             <div className="absolute inset-0 -z-10 overflow-hidden">
                 <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-background to-background/50" />

@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export default function History() {
     return (
-        <section className="py-16 px-4 bg-gray-900 w-full">
+        <section id="sejarah" className="py-16 px-4 bg-gray-900 w-full">
             <div className="max-w-6xl mx-auto">
                 <div className="text-center mb-12">
                     <h2 className="text-3xl font-bold text-white mb-4">Sejarah Arsana Tarangga</h2>

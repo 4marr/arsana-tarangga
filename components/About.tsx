@@ -28,7 +28,7 @@ export default function About() {
     }
 
     return (
-        <section id="about" className="py-16 px-4 w-full relative overflow-hidden">
+        <section id="tentang" className="py-16 px-4 w-full relative overflow-hidden">
             <div className="absolute inset-0 -z-10">
                 <div className="absolute inset-0 bg-gradient-to-b from-background via-background to-muted/50" />
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] rounded-full bg-gradient-to-tr from-primary/5 to-primary-gradient/5 blur-3xl" />

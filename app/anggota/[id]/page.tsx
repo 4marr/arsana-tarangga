@@ -14,7 +14,7 @@ interface TroopPageProps {
     }
 }
 
-export default function TroopPage({ params }: TroopPageProps) {
+export default function anggotaPage({ params }: TroopPageProps) {
     const { troops } = troopsData
     const troop = troops.find((t) => t.id === params.id)
 
