@@ -28,6 +28,19 @@
         },
         {
             "id": "3",
+            "name": "Rani Nuraeni",
+            "position": "Buluh",
+            "photo": "/rani.jpeg",
+            "school": "SMK Bina Informatika",
+            "major": "Otomatisasi Tata Kelola Perkantoran",
+            "ttl": "16-05-2008",
+            "motto": "Jangan pernah menyerah, teruslah berusaha.",
+            "contact": {
+                "instagram": "@Raninuraeniiiii1605"
+            }
+        },
+        {
+            "id": "4",
             "name": "Anissa Novita",
             "position": "Sekertaris",
             "photo": "/anissa.jpeg",
@@ -40,7 +53,7 @@
             }
         },
         {
-            "id": "4",
+            "id": "5",
             "name": "Septiani Wulandari",
             "position": "Bendahara",
             "photo": "/septiani.jpeg",
@@ -53,7 +66,7 @@
             }
         },
         {
-            "id": "5",
+            "id": "6",
             "name": "Jatnicho Fadillah",
             "position": "Anggota",
             "photo": "/jatnicho.jpeg",
@@ -66,7 +79,7 @@
             }
         },
         {
-            "id": "6",
+            "id": "7",
             "name": "Nadia Fitra Putri Sastrayuga",
             "position": "Anggota",
             "photo": "/nadia.jpeg",
@@ -79,7 +92,7 @@
             }
         },
         {
-            "id": "7",
+            "id": "8",
             "name": "Muhammad Devi",
             "position": "Anggota",
             "photo": "/devi.jpeg",
@@ -92,7 +105,7 @@
             }
         },
         {
-            "id": "8",
+            "id": "9",
             "name": "Cinta Ivena",
             "position": "Anggota",
             "photo": "/cinta.jpeg",
@@ -105,7 +118,7 @@
             }
         },
         {
-            "id": "9",
+            "id": "10",
             "name": "Raihan Muhammad Ashfak",
             "position": "Anggota",
             "photo": "/raihan.jpeg",
@@ -118,7 +131,7 @@
             }
         },
         {
-            "id": "10",
+            "id": "11",
             "name": "Keyla",
             "position": "Anggota",
             "photo": "/keyla.jpeg",

@@ -54,7 +54,7 @@ export default function History() {
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent rounded-lg" />
                         <div className="absolute bottom-4 left-4 text-white">
-                            <p className="text-sm opacity-90">Upacara HUT RI ke 78 - Agustus 2022</p>
+                            <p className="text-sm opacity-90">Upacara HUT RI ke 78 - Agustus 2023</p>
                         </div>
                     </div>
                 </div>

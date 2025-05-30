@@ -14,7 +14,7 @@ export default function TroopsPage() {
         <div className="min-h-screen bg-black">
             <Header />
             {/* Header */}
-            <section className="bg-gradient-to-r from-primary via-black to-primary text-white py-32 px-4">
+            <section className="bg-gradient-to-t from-primary to-black text-white py-32 px-4">
                 <div className="max-w-6xl mx-auto text-center">
                     <h1 className="text-4xl font-bold mb-4">
                         Anggota Paskibra <span className="text-primary">Arsana Tarangga</span>

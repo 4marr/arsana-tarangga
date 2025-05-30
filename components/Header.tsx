@@ -97,10 +97,10 @@ export default function Header() {
                         </Link>
                     </nav>
 
-                    <div className="flex items-center gap-4">
+                    <div className="flex items-center gap-4 lg:hidden">
                         {/* Mobile Menu Button */}
                         <button
-                            className="hover:bg-accent hover:text-accent-foreground h-10 w-10 lg:hidden"
+                            className="hover:bg-accent hover:text-accent-foreground h-10 w-10"
                             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
                         >
                             {mobileMenuOpen ? (
