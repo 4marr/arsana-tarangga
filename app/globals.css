@@ -6,12 +6,12 @@
 }
 
 @theme {
-  --color-background: #FFFFFF;
-  --color-foreground: oklch(21% 0.034 264.665);
-  --color-muted-foreground: oklch(44.6% 0.03 256.802);
-  --color-input: oklch(92.8% 0.006 264.531);
-  --color-primary: rgb(142, 22, 22);
-  --color-primary-gradient: rgb(216, 64, 64);
+    --color-background: oklch(20.8% 0.042 265.755);
+    --color-foreground: oklch(96.7% 0.003 264.542);
+    --color-muted-foreground: oklch(70.7% 0.022 261.325);
+    --color-input: oklch(37.3% 0.034 259.733);
+    --color-primary: rgb(142, 22, 22);
+    --color-primary-gradient: rgb(216, 64, 64);
   --font-sans: var(--font-poppins);
   --font-formal: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
